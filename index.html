@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>刘望城卓玛</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="js/jquery-2.0.3.js"></script>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- ..........................................固定定位层..................................................... -->
+
+    <div id="fixQQ">
+        <a href="http://www.baidu.com"><img style="height:100%;width:100%" src="img/637b916d11284034b6722ec2027eabb0.gif" alt="qq咨询" title="点击这里给我发消息"></a>
+    </div>
+    <div id="fixWX">
+        <a href="javascript:;"><img style="height:100%;width:100%" src="img/kefuqrcode2.png" alt="客服二维码" title="客服二维码" /></a>
+    </div>
+    <div id="fixWW">
+        <a href="javascript:;"><img style="height:100%;width:100%" src="img/kefuqrcode.png" alt="微信公众号" title="微信公众号" /></a>
+    </div>
+    <div style="clear:both;">
+    </div>
+
+    <!-- 弹出层 -->
+    <div id="model_one" class="model">
+        <div class="model-header">
+            <h3 class="model-title">客服二维码</h3>
+            <span aria-hidden="true">&times;</span>
+        </div>
+        <div class="model-body" style="text-align:center">
+            <img src="img/kefu.png">
+        </div>
+    </div>
+
+    <div id="model_two" class="model">
+        <div class="model-header">
+            <h3 class="model-title">客服二维码</h3>
+            <span aria-hidden="true">&times;</span>
+        </div>
+        <div class="model-body" style="text-align:center">
+            <img src="img/gotop.png">
+        </div>
+    </div>
+    <!-- 固定层布局结束 -->
+
+    <div id="LwcBox">
+        <!-- .................................第一页开始.................................................... -->
+        <div id="home" class="banner">
+            <!-- 背景层 -->
+            <div id="bannerBack">
+                <ol class="bannerBg">
+                    <li data-target="#bannerSlider" data-slide-to="0" class=""></li>
+                    <li data-target="#bannerSlider" data-slide-to="1" class=""></li>
+                    <li data-target="#bannerSlider" data-slide-to="2" class="active"></li>
+                    <li data-target="#bannerSlider" data-slide-to="3" class=""></li>
+                </ol>
+            </div>
+            <!-- 内容层 -->
+            <div id="bannerCon" class="bannerCon">
+
+                <div id="bannerCon-body">
+                    <!-- 主体层 -->
+                    <div class="bannerCon-main">
+                        <div class="carousel-inner">
+
+                            <!-- 切换层1 -->
+                            <div class="item slider1 active">
+                                <div class="carousel-caption">
+                                    <div class="container">
+                                        <div class="content">
+                                            <a href="#about" class="scroll bounceIn"><img src="img/logo.png" alt="mobile-apps"></a><br>
+                                            <div class="divider-top">
+                                            </div>
+                                            <h1 class="sbounce"><span class="highlight">卓码</span>名片</h1>
+                                            <div class="divider">
+                                            </div>
+                                            <h3>让销售变得更简单！</h3>
+                                            <br>
+                                            <div class="getToHere0">
+                                                <div id="divLogin">
+                                                    <form id="loginForm" action="" method="post" target="_top">
+                                                        <input type="hidden" name="token" value="b1c1c5d9">
+                                                        <div class="bounceInRight loginDiv">
+                                                            <div>
+                                                                <input type="text" placeholder="登录账号" autocomplete="off" name="username" id="username" style="text-indent:0.6em;width:208px;background-color:white;height:25px;">
+                                                            </div>
+                                                            <div style="margin-top:-10px;">
+                                                                <input type="password" placeholder="密码" autocomplete="off" name="password" id="password" style="text-indent:0.6em;width:208px;background-color:white;height:25px;margin-top:3px">
+                                                            </div>
+                                                            <div style="margin-right:133px;margin-top:-10px;">
+                                                                <input id="remember" type="checkbox" value="1" checked><label for="remember"><font color="#FFFFFF">记住密码</font></label>
+                                                            </div>
+                                                        </div>
+                                                        <div class="bounceInLeft" style="margin-top:-15px;">
+                                                            <input type="submit" id="submit" name="submit" class="subscribe-btn" value="登录">
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                            <div class="phone1 bounceInUp">
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 切换层2 -->
+                            <div class="item slider2">
+                                <div class="carousel-caption">
+                                    <div class="container">
+
+                                        <div class="content">
+                                            <a href="#about" class="scroll bounceIn"><img src="img/logo.png" alt="mobile-apps"></a><br>
+                                            <div class="divider-top">
+                                            </div>
+                                            <h1><span class="highlight">卓码</span>名片</h1>
+                                            <div class="divider">
+                                            </div>
+                                            <h3>一键保存至手机通讯录 </h3>
+                                            <h3>一键通话 一键发送短信功能</h3>
+                                            <br>
+                                            <div class="phone2 bounceInUp">
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 切换层3 -->
+                            <div class="item slider3">
+                                <div class="carousel-caption">
+                                    <div class="container">
+
+                                        <div class="content">
+                                            <a href="#about" class="scroll bounceIn"><img src="img/logo.png" alt="mobile-apps"></a><br>
+                                            <div class="divider-top">
+                                            </div>
+                                            <h1><span class="highlight">卓码</span>名片</h1>
+                                            <div class="divider">
+                                            </div>
+                                            <h3>即刻，让世界认识你！</h3>
+                                            <h3>专属你的名片</h3>
+                                            <br>
+                                            <div class="phone3 bounceInUp">
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 切换层4 -->
+                            <div class="item slider4">
+                                <div class="carousel-caption">
+                                    <div class="container">
+
+                                        <div class="content">
+                                            <a href="#about" class="scroll bounceIn"><img src="img/logo.png" alt="mobile-apps"></a><br>
+                                            <div class="divider-top">
+                                            </div>
+                                            <h1><span class="highlight">卓码</span>名片</h1>
+                                            <div class="divider">
+                                            </div>
+                                            <h3>一个包罗万象的操作平台</h3>
+                                            <h3>更好的兼容性、更便捷的操作性、更直观的数据分析</h3>
+                                            <br>
+
+                                            <div class="phone4 bounceInUp">
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 切换层结束 -->
+                        </div>
+                    </div>
+                    <!-- 左右按钮层 -->
+                    <div class="bannerCon-left"><span class="span1"><img src="img/QQ截图20171009235714.png" alt=""></span></div>
+                    <div class="bannerCon-right"><span class="span2"><img src="img/QQ截图20171009235738.png" alt=""></span></div>
+                </div>
+
+                <div style="clear: both;"></div>
+            </div>
+        </div>
+        <!-- .................................第二页开始.................................................... -->
+        <div id="role">
+            <div class="container">
+                <!-- 头部信息 -->
+                <div class="about">
+                    <h2>功能介绍<span>一站式营销策划、培训、推广、资源整合服务</span></h2>
+                    <div class="divider">
+                    </div>
+                </div>
+                <!-- 左侧图片区 -->
+                <div class="bounceIn">
+                    <img src="img/1.png" class="img-responsive" alt="mobile-apps" style="width:100%;height:100%;">
+                </div>
+                <!-- 右侧信息区 -->
+                <div class="container-listone">
+                    <div class="list fadeInUp">
+                        <img class="flat-icons" src="img/cog-icons.png" alt="flaticons">
+                        <h5>[数字化更环保]</h5>
+                        <p>
+                            基于移动互联网和二维码技术，名片电子化、信息数字化，无需印刷，比纸质名片更低碳环保。
+                        </p>
+                    </div>
+                    <div class="list fadeInUp">
+                        <img class="flat-icons" src="img/brush-icons.png" alt="flaticons">
+                        <h5>[交换、分享更便捷]</h5>
+                        <p>
+                            拇指点一点，好友即可把您的名片信息保存至手机。还可通过短信、邮件、微博、微信等方式一键分享给好友。
+                        </p>
+                    </div>
+                </div>
+                <div class="container-listlast">
+                    <div class="list fadeInUp">
+                        <img class="flat-icons" src="img/pencil-icons.png" alt="flaticons">
+                        <h5>[海量精品模板]</h5>
+                        <p>
+                            根据行业、性别、年龄、职业等不同需求设计大量精美名片模板，总有一款能匹配您的身份，能秀出您的个人魅力。
+                        </p>
+                    </div>
+                    <div class="list fadeInUp">
+                        <img class="flat-icons" src="img/mobile-icons.png" alt="flaticons">
+                        <h5>[管理方便]</h5>
+                        <p>
+                            名片信息随时随地任意修改，省去因信息变更而重新设计、印刷等繁杂工序。好友只需访问您的微名片地址，即可获取您的最新联系方式。再也不用担心由于联系方式变更，导致与好友失去联系。
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+            <div style="clear: both;"></div>
+        </div>
+        <!-- .................................第三页开始.................................................... -->
+        <div id="features">
+            <div class="container">
+                <!-- 头部信息栏 -->
+                <div class="features bounce">
+                    <h2>产品亮点<span>在移动互联网实现了企业名片与个人名片并存，而且操作简单，传播快，强大的功能将成为商家不可或缺的依赖性产品。</span></h2>
+                    <div class="divider">
+                    </div>
+                </div>
+                <!-- 左侧信息栏一 -->
+                <div class="features-listone">
+                    <div class="list fadeInUp">
+                        <img class="flat-icons" src="img/thumbsup-icons.png" alt="responsive">
+                        <h5>视觉设计</h5>
+                        <p>
+                            我们相信每个客户企业都有它的个性，就如它的每个公司客户的传奇性一般。如何将它的个性发光发亮，我们一直都专研此道。从视觉，颜色、版式、个人喜好、 呈现载体等，每一个元素都寄托了它的灵魂，每套卓码微名片我们都赋予它强大的灵魂。
+                        </p>
+                    </div>
+
+                    <div class="list fadeInUp">
+                        <img class="flat-icons" src="img/diamond-icons.png" alt="responsive">
+                        <h5>互动转发</h5>
+                        <p>
+                            触摸移动互联网革命！我们基于目前微名片增加了图片文章功能，用户可以自行编写文章转发，通过转发获得更多人的访问带来更多的商机！
+                        </p>
+                    </div>
+                </div>
+                <!-- 左侧信息栏二 -->
+                <div class="features-listlast">
+                    <div class="list fadeInUp">
+                        <img class="flat-icons" src="img/html5-icons.png" alt="responsive">
+                        <h5>便捷美观</h5>
+                        <p>
+                            我们基于目前客户上网方式，设计了一系列的快捷功能：一键短信、一键拨号、一键导航等。此外我们所设计的多种风格的底部快捷菜单，让您的名片高大上。
+                        </p>
+                    </div>
+                    <div class="list fadeInUp">
+                        <img class="flat-icons" src="img/video-icons.png" alt="responsive">
+                        <h5>微信功能</h5>
+                        <p>
+                            将微信与名片融为一体！微信用户日益增涨，微信不乏是个很好的营销途径。综合微信特点我们设计了自动图文回复、文字回复、语音回复、音乐回复等功能板块；为增加粉丝粘度，我们开发了粉丝管理、信息群发等功能。
+                        </p>
+                    </div>
+                </div>
+                <!-- 右侧图片栏 -->
+                <div class="bounceIn" style="margin-top:-30px;">
+                    <img src="img/2.png" class="img-responsive" alt="responsive" style="width:100%;height:100%;">
+                </div>
+            </div>
+            <div style="clear: both;"></div>
+        </div>
+        <!-- .................................第四页开始.................................................... -->
+        <div id="action">
+            <div class="container">
+                <div class="center">
+                    <!-- 头部信息栏 -->
+                    <div class="content-action bounce">
+                        潜力巨大、引领潮流
+                    </div>
+                    <h3>本产品已经推出，以其强大、实用的功能，将改变企业和个人交换名片的习惯。</h3>
+                    <h3>时尚、实用、创新，引领交际新朝流。</h3>
+                    <!-- 按钮层 -->
+                    <div style="height:50px;width:400px;position:relative;" class="action-control">
+                        <a href="#benefits" class="btn-learn"></a>
+                        <a href="#downloads" class="btn-download"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- .................................第五页开始.................................................... -->
+        <div id="team">
+            <div class="container">
+                <div class="team-container">
+                    <!-- 头部信息栏 -->
+                    <div class="team">
+                        <h2>我们的团队<span>移动互联网正在改变我们身边的一切，每一个行业都应该从中受益，我们也希望和你一起推动这种进步！</span></h2>
+                        <div class="divider">
+                        </div>
+                    </div>
+                    <!-- 图片展示区 -->
+                    <div class="teamshow">
+                        <ul>
+                            <li>
+                                <div style="height:1350px; width: 1000px;">
+                                    <div style="height:1520px;width:100%;position:relative;" class="team-more">
+                                        <div style="height:1350px;position:relative;right:-1000px;" class="team-image">
+                                            <img src="img/1.png" alt="img01" style="width:100%;height:100%;">
+                                        </div>
+                                        <div class="team-fig">
+                                            <h3>Jimi</h3>
+                                            <h5>高级电商运营总经理 卓码名片创始人</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div style="height:600px;width:444px">
+                                    <div style="height:810px;width:100%;position:relative;" class="team-more">
+                                        <div style="height:600px;position:relative;top:500px;" class="team-image">
+                                            <img src="img/2.png" alt="img02" style="width:100%;height:100%;">
+                                        </div>
+                                        <div class="team-fig">
+                                            <h3>Jimi</h3>
+                                            <h5>高级电商运营总经理 卓码名片创始人</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div style="height:1650px;width:980px;">
+                                    <div style="height:1820px;width:100%;position:relative;" class="team-more">
+                                        <div style="height:1650px;position:relative;left:-1000px;" class="team-image">
+                                            <img src="img/3.png" alt="img03" style="width:100%;height:100%;">
+                                        </div>
+                                        <div class="team-fig">
+                                            <h3>Jimi</h3>
+                                            <h5>高级电商运营总经理 卓码名片创始人</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div style="height:372px;width:247px">
+                                    <div style="height:542px;width:100%;position:relative;" class="team-more">
+                                        <div style="height:372px;position:relative;top:500px;" class="team-image">
+                                            <img src="img/4.png" alt="img04" style="width:100%;height:100%;">
+                                        </div>
+                                        <div class="team-fig">
+                                            <h3>Jimi</h3>
+                                            <h5>高级电商运营总经理 卓码名片创始人</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div style="clear: both;">
+            </div>
+        </div>
+        <!-- .................................第六页开始.................................................... -->
+        <div id="benefits">
+            <div class="container">
+                <div class="benefits-container">
+                    <!-- 头部信息栏 -->
+                    <div class="benefits">
+                        <h2>更多功能 完美呈现<span>看到的是细节，感受到的是用心！</span></h2>
+                        <div class="divider">
+                        </div>
+                    </div>
+
+                    <div style="position:relative;margin:0 auto;height:770px;">
+                        <!-- 左侧信息栏 -->
+                        <div class="benefits-lione benefits-li">
+                            <div class="list bounceInLeft" style="visibility: visible;">
+                                <img class="flat-icons" src="img/pc-icons.png" alt="html5">
+                                <h5>海量模板 智能匹配</h5>
+                                <p>
+                                    每个微名片前端都是有HTML5+CSS3开发，从功能开发到微名片上线维护，我们一如既往地根据用户的需求、市场环境、个人信息等进行综合分析并提供真实可靠的解决方案，有效提升个人形象及企业形象。
+                                </p>
+                            </div>
+                            <div class="list bounceInLeft" style="visibility: visible;">
+                                <img class="flat-icons" src="img/flag-icons.png" alt="html5">
+                                <h5>丰富的编辑器功能</h5>
+                                <p>
+                                    带来巨大的商机！设有标题/正文、图片各种常见素材编辑排版，就算你是小白也能做出高大上的名片。
+                                </p>
+                            </div>
+                            <div class="list bounceInLeft" style="visibility: visible;">
+                                <img class="flat-icons" src="img/search-icons.png" alt="html5">
+                                <h5>实时查看访问统计数据</h5>
+                                <p>
+                                    随时打开查看入口，轻松掌握实时名片流量统计。
+                                </p>
+                            </div>
+                        </div>
+                        <!-- 图片区 -->
+                        <div class="benefits-liimg benefits-li">
+                            <div class="benefits-liimg-cov">
+                                <img src="img/3.png" class="img-responsive center" alt="html5" style="width:100%;height:100%;">
+                            </div>
+                        </div>
+                        <!-- 右侧信息栏 -->
+                        <div class="benefits-litwo benefits-li">
+                            <div class="list bounceInRight" style="visibility: visible;">
+                                <img class="flat-icons" src="img/rocket-icons.png" alt="html5">
+                                <h5>能祝福贺卡 高调送祝福</h5>
+                                <p>
+                                    我们开发了多种类型的祝福贺卡，扔掉传统的短信祝福吧！让您的祝福从此以后高大上！
+                                </p>
+                            </div>
+                            <div class="list bounceInRight" style="visibility: visible;">
+                                <img class="flat-icons" src="img/coffee-icons.png" alt="html5">
+                                <h5>留言功能</h5>
+                                <p>
+                                    手机上实时查看留言内容，不错过任何一条有价值的留言。手机上实时查看留言内容，不错过任何一条有价值的留言。
+                                </p>
+                            </div>
+                            <div class="list bounceInRight" style="visibility: visible;">
+                                <img class="flat-icons" src="img/papers-icons.png" alt="html5">
+                                <h5>地图位置导航</h5>
+                                <p>
+                                    精准定位，轻松导航，让客户轻松与您会面！手机上实时查看留言内容，不错过任何一条有价值的留言。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div style="clear: both;">
+            </div>
+        </div>
+        <!-- .................................第七页开始.................................................... -->
+        <div id="video">
+            <div class="video-row" style="position:relative;">
+                <div class="video-bg">
+                    <a class="popup-vimeo" href="http://player.vimeo.com/video/66737183?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff"><i class="play-icon"></i></a>
+                </div>
+            </div>
+            <div style="clear: both;">
+            </div>
+        </div>
+        <!-- .................................第八页开始.................................................... -->
+        <div id="screenshots">
+            <div class="container">
+                <div class="screenshots-main">
+                    <!-- 头部 -->
+                    <h2 style="font-size:40px;">功能界面 尽在掌握<span>交互界面简洁大方、易于操作</span></h2>
+                    <!-- 切换层 -->
+                    <div class="screenshots-phone">
+                        <div class="ac-grid" style="width:249px;height:440px;margin:85px 0 0 20px;border-radius:5px;position:relative;overflow:hidden;">
+
+                            <img src="img/1.jpg" alt="img1" class="active"><span>快分享、易存储</span>
+                            <img src="img/2.jpg" alt="img1" class=""><span>永久保“鲜”</span>
+                            <img src="img/3.jpg" alt="img1" class=""><span>海量精美模板</span>
+                            <img src="img/4.jpg" alt="img1" class=""><span>方便、快捷、时尚</span>
+                            <img src="img/5.jpg" alt="img1" class=""><span>引领商务社交新时尚。</span>
+                            <img src="img/6.jpg" alt="img1" class=""><span>随时随地轻松分享。</span>
+                            <img src="img/7.jpg" alt="img1" class=""><span>行业资讯任性传播。</span>
+                            <img src="img/8.jpg" alt="img1" class=""><span>让销售变得更简单！</span>
+
+
+                        </div>
+                    </div>
+                    <!-- 切换层 -->
+                    <div class="screenshots-word">
+                        <h3 class="ac-title">让销售变得更简单！</h3>
+                        <nav>
+                            <p>
+                                微名片除了可以展示常规名片信息外，还可与微博、微信进行捆绑，展示更丰富个人信息，是拓展业务的必备工具。
+                            </p>
+                            <span>&lt;</span><span>&gt;</span>
+                        </nav>
+                    </div>
+                    <div style="clear: both;">
+                    </div>
+                </div>
+            </div>
+            <div style="clear: both;">
+            </div>
+        </div>
+        <!-- .................................第九页开始.................................................... -->
+        <div id="downloads">
+            <div class="container">
+
+                <div class="downloads-main">
+                    <div class="downloads" style="visibility: visible;">
+                        <h2>卓码名片提供行业一体化营销解决方案<span class="btn-danger">我们致力于通过移动互联网来改变整个传统软件行业，做智慧营销领导者。</span></h2>
+                        <div class="divider" style="margin-top:5px">
+                        </div>
+                    </div>
+                    <div class="downloads-text" style="visibility: visible;">
+                        <div align="center" class="" style='font-size:18px;font-weight:bold'>
+                            珠海风速网络科技有限公司2015年已获得天使投资，目前正处于高速发展时期。公司汇聚了一批在软件开发、营销策划等多个领域的专业技术人才，形成了从信息化项目的策划、开发、管理、营销的全程服务体系和专业服务团队，具备强大的研发和推广能力, 以高素质的人才、精湛的专业技术为基础，坚持以客户为先的服务理念，为客户提供完善的咨询、营销策划服务。
+                        </div>
+                    </div>
+                    <br>
+                </div>
+
+            </div>
+            <div style="clear: both;">
+            </div>
+        </div>
+        <!-- .................................第十页开始.................................................... -->
+        <div id="counter">
+            <div class="container">
+                <div class="counter-main">
+                    <div class="counter-num">
+                        <h1 class="count">0</h1>
+                        <h6>用户数</h6>
+                    </div>
+                    <div class="counter-num">
+                        <h1 class="count">1</h1>
+                        <h6>注册渠道用户</h6>
+                    </div>
+                    <div class="counter-num">
+                        <h1 class="count">0</h1>
+                        <h6>登录使用次数</h6>
+                    </div>
+                    <div class="counter-num">
+                        <h1 class="count">0</h1>
+                        <h6>持续更新周期</h6>
+                    </div>
+                </div>
+            </div>
+            <div style="clear: both;">
+            </div>
+        </div>
+        <!-- .................................第十一页开始.................................................... -->
+        <div id="testimonials">
+            <div class="quote">
+                <div class="testimonials-main">
+                    <div class="flexslider center">
+                        <ul class="slides">
+
+                            <li>
+                                <div>
+                                    <span class="STYLE5">欢迎使用卓码名片移动互联网营销平台。卓码名片简约而不简单！让您丢掉繁琐与复杂的纸张名片，独一无二的排版设计体现您与您的企业高端潮流和高尊贵身份。</span><span class="testimonial"></span>
+                                </div>
+                                <div class="divider">
+                                </div>
+                                <img class="center" src="img/1.jpg" alt="client"><br>
+                                <span class="client-info">jimi</span><span>| CEO</span>
+                                <div class="site-info">
+                                    www.zhuoma360.com
+                                </div>
+                            </li>
+                            <li>
+                                <div class="STYLE5">
+                                    他们都在使用了，您还在等什么？ 优质云数据服务，系统安全更有保障。卓码名片您值得信赖的伙伴！
+                                </div>
+                                <div class="divider">
+                                </div>
+                                <img class="center" src="img/2.jpg" alt="client"><br>
+                                <span class="client-info">alex</span><span>| CTO</span>
+                                <div class="site-info">
+                                    www.zhuoma360.com
+                                </div>
+                            </li>
+                            <li>
+                                <div class="STYLE5">
+                                    让销售变得简单，让您和您的企业即刻展现在6亿微信用户群，不仅提供专业平台保障，更为您扩展无限商机！
+                                </div>
+                                <div class="divider">
+                                </div>
+                                <img class="center" src="img/3.jpg" alt="client"><br>
+                                <span class="client-info">vincent</span><span>| COO</span>
+                                <div class="site-info">
+                                    www.zhuoma360.com
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <span class="STYLE5">欢迎使用卓码名片移动互联网营销平台。卓码名片简约而不简单！让您丢掉繁琐与复杂的纸张名片，独一无二的排版设计体现您与您的企业高端潮流和高尊贵身份。</span><span class="testimonial"></span>
+                                </div>
+                                <div class="divider">
+                                </div>
+                                <img class="center" src="img/1.jpg" alt="client"><br>
+                                <span class="client-info">jimi</span><span>| CEO</span>
+                                <div class="site-info">
+                                    www.zhuoma360.com
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <a href="javascript:;" class='btn-info'></a>
+                <a href="javascript:;" class='btn-info'></a>
+            </div>
+            <div style="clear: both;">
+            </div>
+        </div>
+        <!-- .................................第十二页开始.................................................... -->
+        <div id="contact">
+            <div class="container">
+                <div class="contact-main">
+
+                    <div class="contact" style="visibility: visible;">
+                        <h2>联系我们<span class="btn-warning"><strong>免费赠送9800元《行业全网营销解决方案》</strong></span></h2>
+                        <div class="divider" style="margin-top:10px;"></div>
+                    </div>
+                    <div class="contact-news">
+
+
+
+                        <div class="contact-fadeIn" style="visibility: visible;">
+                            <div class="" style="padding-top:20px; text-align:center;">
+                                <div class="contact-info STYLE2">
+                                    广东省珠海市香洲区
+                                </div>
+                                <div class="contact-info STYLE2">
+                                    凤凰北路2042号农行商业大厦905室
+                                </div>
+                                <div class="contact-info STYLE2">
+                                    Tell:0756-3325698
+                                </div>
+                                <div class="contact-info STYLE2">
+                                    客服QQ:2130846081
+                                </div>
+                                <div class="contact-info STYLE2">
+                                    Email:nhshiyuan@163.com
+                                </div>
+                                <a href="https://www.google.com/maps/place/Central+Philippine+University/@10.729984,122.549298,17z/data=!3m1!4b1!4m6!1m3!3m2!1s0x33aee4d82b80eef7:0x1c5b598c2f3b43aa!2sCentral+Philippine+University!3m1!1s0x33aee4d82b80eef7:0x1c5b598c2f3b43aa" class="map-btn">在地图上查看我们的位置</a>
+                            </div>
+                        </div>
+
+                        <div class="formbox">
+                            <form action="">
+                                <div class="formbox-fadeIn" style="visibility: visible;">
+                                    <div class="formbox-one">
+                                        <input type="email" placeholder="Email" name="email" required="required" class="c-text">
+                                        <input type="text" placeholder="Name" name="name" required="required" class="c-text">
+                                        <input type="text" placeholder="Subject" name="subject" required="required" class="c-text">
+                                    </div>
+                                </div>
+                                <div class="formbox-fadeIn formbox-fadeIn-two" style="visibility: visible;">
+                                    <div class="formbox-two">
+                                        <textarea name="message" class="m-text" required="required" placeholder="Your Message" rows="3"></textarea>
+                                        <button type="button" name="subscribe" class="contact-btn">发送留言信息</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+                <div style=" clear: both; "></div>
+            </div>
+        </div>
+        <!-- .................................第十三页开始.................................................... -->
+        <div id="subscription">
+            <div class="container">
+                <div class="subscription-main">
+                    <div class="subscription-img">
+                        <img src="img/4.png" class="img-responsive" alt="phone">
+                    </div>
+                    <div class="subscription-text">
+                        <h2 class="flipInX">快来使用卓码名片带来的全新方式的销售、服务和推广体验！</h2>
+                        <h3 class="flipInX">一个包罗万象的操作平台，可以不限行业地满足您对微信平台的基本使用需求，通过展示、推广、互动、成交的各个环节快速进入微信营销轨道。它的功能远超你想象！</h3>
+                        <div class="input-group">
+                            <input type="text" placeholder="Email" name="email" class="form-control">
+                            <button class="subscribe-btn" type="button">订阅邮件</button>
+                        </div>
+
+                        <div>
+                            &copy; 2010-2025&nbsp;&nbsp;珠海风速网络科技有限公司 &nbsp;&nbsp;版权所有&nbsp;&nbsp;备案号：<a style="color:white" href="http://www.miitbeian.gov.cn">粤ICP备16009897号 </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="clear: both;"></div>
+        </div>
+
+
+    </div>
+</body>
+
+<script src="js/JQuery-easy.js "></script>
+<script src="js/getPos.js "></script>
+<script src="js/fixed.js "></script>
+<script src="js/home.js "></script>
+<script src="js/role.js "></script>
+<script src="js/features.js "></script>
+<script src="js/action.js "></script>
+<script src="js/team.js "></script>
+<script src="js/bebefits.js "></script>
+<script src="js/video.js "></script>
+<script src="js/screenshots.js "></script>
+<script src="js/counter.js "></script>
+<script src="js/testimonials.js "></script>
+<script src="js/contact.js"></script>
+<script src="js/control.js "></script>
+
+</html>
